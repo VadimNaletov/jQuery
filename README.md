@@ -1,1 +1,1 @@
-# jQuery
+A basic desktop application that allows you to compile full name data from three lines into one and vice versa. Changes the interface depending on the task. Checks for errors in data filling. When errors are found, a notification is sent
