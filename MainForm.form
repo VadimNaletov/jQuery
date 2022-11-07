@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1061" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="55667" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="dece1" class="javax.swing.JButton" binding="button">
+            <constraints/>
+            <properties>
+              <text value="Collapse"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5ef86" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="65f7a" class="javax.swing.JLabel" binding="surnameLabel">
+            <constraints/>
+            <properties>
+              <background color="-12828863"/>
+              <foreground color="-4473925"/>
+              <labelFor value="4c0db"/>
+              <text value="Фамилия: "/>
+            </properties>
+          </component>
+          <component id="4c0db" class="javax.swing.JTextArea" binding="surnameArea">
+            <constraints/>
+            <properties>
+              <background color="-3881788"/>
+              <editable value="true"/>
+              <lineWrap value="true"/>
+              <minimumSize width="400" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9064b" class="javax.swing.JLabel" binding="nameLabel">
+            <constraints/>
+            <properties>
+              <text value="Имя:"/>
+            </properties>
+          </component>
+          <component id="e5d1d" class="javax.swing.JTextArea" binding="nameArea">
+            <constraints/>
+            <properties>
+              <background color="-3881788"/>
+              <lineWrap value="true"/>
+              <minimumSize width="200" height="30"/>
+            </properties>
+          </component>
+          <component id="bb770" class="javax.swing.JLabel" binding="fathersNameLabel">
+            <constraints/>
+            <properties>
+              <text value="Отчество (если имеется): "/>
+            </properties>
+          </component>
+          <component id="ec912" class="javax.swing.JTextArea" binding="fathersNameArea">
+            <constraints/>
+            <properties>
+              <background color="-3881788"/>
+              <lineWrap value="true"/>
+              <minimumSize width="200" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
